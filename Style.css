@@ -1,0 +1,119 @@
+body {
+    background-image:url(Fondo_body.jpg);
+}
+
+#gatitos {
+    width: 90%;
+}
+
+#barralateral {
+    padding-top: 1%;
+    float: right;
+    width: 30%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-size:50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 380px;
+    height: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgb(153, 65, 211);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+     
+.t-stroke {
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+     
+.t-shadow {
+    text-shadow: 4px 4px #8dffcd;
+}
+ 
+#contenedor2 {
+    display: flex;
+    width: 400px;
+    height: 140px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgb(153, 65, 211);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(223, 218, 160);
+    text-align: center;
+    padding: 15px;
+    /*float:right;*/
+    position: relative; left: 30%; 
+    align-items: center;
+}
+
+#volver {
+    display: flex;
+    box-shadow: 0px 0px 20px gray;
+    border-bottom: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    width: 100px;
+    background-color: rgb(240, 143, 159);
+    text-align: center;
+    padding: 20px;
+    border: rgb(260, 150, 170);
+    text-decoration: none;
+}
+
+#herramientas {
+    padding: 10px;
+    float: right;
+    position: relative; bottom: 50%;
+    text-align: center;
+    width: 100%;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(97, 96, 96);
+}
+
+#uno {
+    padding: 10px;
+}
+
+#dos {
+    padding: 10px;
+}
+
+#tres {
+    padding: 10px;
+}
+
+#cuatro {
+    padding: 10px;
+}
+
+#mail {
+    padding: 15px;
+}
+
+#whatsapp {
+    padding: 15px;
+}
+
+#github {
+    padding: 15px;
+}
+
+#linkedin {
+    padding: 15px;
+}
